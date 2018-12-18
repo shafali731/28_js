@@ -30,3 +30,10 @@ var gcd = function gcd(a,b){
   }
   return current_gcd
 }
+
+var randS = function randomStudent(){
+  var arr = ["Ahnaf", "Shafali", "Tyler", "Tom", "Matthew", "Jennifer", "Elias", "Dipali", "Sam", "Bro"]
+  var randNum = Math.floor(Math.random() * arr.length)
+  return arr[randNum]
+  //return randNum
+}
